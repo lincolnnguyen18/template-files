@@ -22,26 +22,25 @@ eslint \
 @typescript-eslint/parser
 ```
 
-Delete the following files:
+Delete the following files/folders:
 * main.ts
 * tsconfig.json
 * jest.config.js
 * .gitignore
-
-Copy the following files to the root directory:
-* .env
-* .eslintrc
-* .eslintignore
-* .gitignore
-* jest.config.js
-* tsconfig.json
-
-Delete the following folders:
 * \_\_tests\_\_
 
-Copy the following folders to the root directory:
-* src
-* .github
+Copy the following files/folders to the root directory:
+* Create yourself
+  * .env
+* Copy from `general/eslint-non-react`
+  * .eslintrc
+  * .eslintignore
+* Copy from `project-specific/shared-infra`
+  * .gitignore
+  * jest.config.js
+  * tsconfig.json
+  * src
+  * .github
 
 In `cdktf.json`, change
 ```json
